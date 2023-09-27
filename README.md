@@ -28,7 +28,9 @@ As this is a really simple project, you can use the command-line build tools or 
 
 ## Overview
 
-The project represents an alpha version of a spaceship simulator.
+<<<<<<< HEAD
+The project represents an alpha version of a spaceship simulator thing.
+>>>>>>> branch-B
 
 - The ship (`SpaceShip` interface) can fire one or more lasers or torpedos.
 - We have only one spaceship as of now (`GT4500`).
