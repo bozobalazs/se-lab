@@ -10,6 +10,12 @@ import java.util.Random;
 public class TorpedoStore {
   // Create a random number generator for later use
   Random generator = new Random();
+
+  // Added some empty lines here to separate the code completely pointlessly
+
+
+  
+
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; //NOSONAR
 
