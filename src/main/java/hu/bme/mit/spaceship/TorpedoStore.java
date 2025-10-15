@@ -11,7 +11,7 @@ public class TorpedoStore {
 
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; //NOSONAR
-  private Random generator = new Random();
+  private static final Random generator = new Random(); // Random number generator for the class, used to simulate random failures of the torpedo store
   private int torpedoCount = 0;
 
   public TorpedoStore(int numberOfTorpedos){
