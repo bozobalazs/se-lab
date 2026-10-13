@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // Random generator for simulating failures, reused to avoid overhead of creating new instances to improve security (predictable seed) and performance (avoid memory churn)
   private static final Random GENERATOR = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
